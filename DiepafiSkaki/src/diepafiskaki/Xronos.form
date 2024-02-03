@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="51" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="XronosMavrou" min="-2" pref="302" max="-2" attributes="0"/>
+                      <Component id="XronosAsprou" min="-2" pref="302" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <Component id="XronosMavrou" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace pref="43" max="32767" attributes="0"/>
+                  <Component id="XronosAsprou" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="XronosAsprou">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x3a7;&#x3c1;&#x3cc;&#x3bd;&#x3bf;&#x3c2; &#x39b;&#x3b5;&#x3c5;&#x3ba;&#x3bf;&#x3cd;"/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x3bf; &#x3c7;&#x3c1;&#x3cc;&#x3bd;&#x3bf;&#x3c2; &#x3c0;&#x3bf;&#x3c5; &#x3b1;&#x3c0;&#x3bf;&#x3bc;&#x3ad;&#x3bd;&#x3b5;&#x3b9; &#x3c3;&#x3c4;&#x3bf;&#x3bd; &#x3c0;&#x3b1;&#x3af;&#x3ba;&#x3c4;&#x3b7; &#x3bc;&#x3b5; &#x3c4;&#x3b1; &#x3bb;&#x3b5;&#x3c5;&#x3ba;&#x3ac;"/>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+          </AccessibilityProperties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_allCodePost" type="java.lang.String" value="XronosAsprou.setFont(new Font(&quot;Arial&quot;,Font.BOLD,25));"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="XronosMavrou">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x3a7;&#x3c1;&#x3cc;&#x3bd;&#x3bf;&#x3c2; &#x39c;&#x3b1;&#x3cd;&#x3c1;&#x3bf;&#x3c5;"/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x3bf; &#x3c7;&#x3c1;&#x3cc;&#x3bd;&#x3bf;&#x3c2; &#x3c0;&#x3bf;&#x3c5; &#x3b1;&#x3c0;&#x3bf;&#x3bc;&#x3ad;&#x3bd;&#x3b5;&#x3b9; &#x3b3;&#x3b9;&#x3b1; &#x3c4;&#x3bf;&#x3bd; &#x3c0;&#x3b1;&#x3af;&#x3ba;&#x3c4;&#x3b7; &#x3bc;&#x3b5; &#x3c4;&#x3b1; &#x3bc;&#x3b1;&#x3cd;&#x3c1;&#x3b1;"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="XronosMavrou.setFont(new Font(&quot;Arial&quot;,Font.BOLD,25));"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

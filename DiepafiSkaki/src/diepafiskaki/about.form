@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[600, 300]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel1" min="-2" pref="76" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="592" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jLabel1" max="32767" attributes="0"/>
+          <Component id="jScrollPane1" alignment="0" pref="300" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JLabel(new ImageIcon(&quot;logo.png&quot;))"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#x397; &#x3c0;&#x3b1;&#x3c1;&#x3bf;&#x3cd;&#x3c3;&#x3b1; &#x3b5;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ae; &#x3b4;&#x3b7;&#x3bc;&#x3b9;&#x3bf;&#x3c5;&#x3c1;&#x3b3;&#x3ae;&#x3b8;&#x3b7;&#x3ba;&#x3b5; &#x3b1;&#x3c0;&#x3cc; &#x3c4;&#x3bf;&#x3bd; &#x3a7;&#x3ac;&#x3c1;&#x3b7; &#x391;&#x3b3;&#x3b3;&#x3b5;&#x3bb;&#x3af;&#x3b4;&#x3b7;, &#x3c6;&#x3bf;&#x3b9;&#x3c4;&#x3b7;&#x3c4;&#x3ae; &#xa;&#x3c4;&#x3bf;&#x3c5; &#x3c4;&#x3bc;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3bf;&#x3c2; &#x39c;&#x3a0;&#x397;&#x3a3;, &#x3c4;&#x3bf;&#x3c5; &#x394;&#x3b9;.&#x3c0;&#x3b1;.&#x395;, &#x3c3;&#x3c4;&#x3b1; &#x3c0;&#x3bb;&#x3b1;&#x3af;&#x3c3;&#x3b9;&#x3b1; &#x3c4;&#x3bf;&#x3c5; &#x3bc;&#x3b1;&#x3b8;&#x3ae;&#x3bc;&#x3b1;&#x3c4;&#x3bf;&#x3c2; &#xa;&quot;&#x391;&#x3bb;&#x3bb;&#x3b7;&#x3bb;&#x3b5;&#x3c0;&#x3af;&#x3b4;&#x3c1;&#x3b1;&#x3c3;&#x3b7; &#x391;&#x3bd;&#x3b8;&#x3c1;&#x3ce;&#x3c0;&#x3bf;&#x3c5;-&#x39c;&#x3b7;&#x3c7;&#x3b1;&#x3bd;&#x3ae;&#x3c2;&quot;. &#x397; &#x3b1;&#x3c1;&#x3c7;&#x3b9;&#x3ba;&#x3ae; &#x3c5;&#x3bb;&#x3bf;&#x3c0;&#x3bf;&#x3af;&#x3b7;&#x3c3;&#x3b7; &#xa;&#x3c4;&#x3b7;&#x3c2; &#x3b5;&#x3c6;&#x3b1;&#x3c1;&#x3bc;&#x3bf;&#x3b3;&#x3ae;&#x3c2; &#x3c0;&#x3c1;&#x3b1;&#x3b3;&#x3bc;&#x3b1;&#x3c4;&#x3bf;&#x3c0;&#x3bf;&#x3b9;&#x3ae;&#x3b8;&#x3b7;&#x3ba;&#x3b5; &#x3c3;&#x3c4;&#x3b9;&#x3c2; 25 &#x39d;&#x3bf;&#x3b5;&#x3bc;&#x3b2;&#x3c1;&#x3af;&#x3bf;&#x3c5; &#x3c4;&#x3bf;&#x3c5; 2023.&#xa;&#xa;&#x393;&#x3b9;&#x3b1; &#x3c3;&#x3c7;&#x3cc;&#x3bb;&#x3b9;&#x3b1;-&#x3b5;&#x3bd;&#x3c4;&#x3bf;&#x3c0;&#x3b9;&#x3c3;&#x3bc;&#x3cc; &#x3bb;&#x3b1;&#x3b8;&#x3ce;&#x3bd; &#x3b5;&#x3c0;&#x3b9;&#x3ba;&#x3bf;&#x3b9;&#x3bd;&#x3c9;&#x3bd;&#x3ae;&#x3c3;&#x3c4;&#x3b5; &#x3bc;&#x3ad;&#x3c3;&#x3c9; email &#x3c3;&#x3c4;&#x3bf;:&#xa;xangelidis100@gmail.com&#xa;&#xa;&#xa;&#xa;&#x3a4;&#x3b5;&#x3bb;&#x3b5;&#x3c5;&#x3c4;&#x3b1;&#x3af;&#x3b1; &#x3b5;&#x3bd;&#x3b7;&#x3bc;&#x3ad;&#x3c1;&#x3c9;&#x3c3;&#x3b7; 6/12/2023&#xa;&#xa;&#xa;&#x388;&#x3ba;&#x3b4;&#x3bf;&#x3c3;&#x3b7; 2.3"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[500, 300]"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jTextArea1.setEditable(false);"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
